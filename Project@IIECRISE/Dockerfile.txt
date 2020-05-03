@@ -1,0 +1,6 @@
+FROM nginx
+MAINTAINER sharma.rajeev2906Q@gmail.com
+COPY index.html /usr/share/nginx/html/index.html
+COPY mar.jpeg /usr/share/nginx/html/mar.jpeg
+COPY th.jpeg /usr/share/nginx/html/th.jpeg
+EXPOSE 80
